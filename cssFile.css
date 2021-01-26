@@ -1,0 +1,43 @@
+.form-box{
+    width: 100%;
+}
+.input-group{
+    margin: 30px 12%;
+    width: 70%;
+}
+.input-field,.submit-btn,.lbl{
+    display: block;
+    margin: 10px;
+    font-size: 20px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 20px;
+    outline: none;
+}
+.lbl{
+    color: rgb(88, 90, 92);
+}
+.submit-btn{
+    background:rgb(6, 101, 138);
+    color: rgb(210, 216, 218);
+    box-shadow: -7px 7px 5px rgba(0, 0, 0, 0.363);
+    cursor: pointer;
+    transition: all .5s ease-out;
+}
+.submit-btn:hover{
+    background: rgb(4, 63, 86);
+    color: rgb(239, 255, 240);
+    box-shadow: -10px 10px 7px rgba(0, 0, 0, 0.5);
+}
+.alert{
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+.alert-primary {
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+}
